@@ -16,7 +16,7 @@ function Header() {
 
           <div className='basis-1/4 flex place-content-end'>
             <Button
-              link='#contact'
+              link='mailto:ctarres92@gmail.com'
               title='Contact me'
             />
           </div>

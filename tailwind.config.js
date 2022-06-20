@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: [
@@ -18,10 +17,6 @@ module.exports = {
       boxShadow: {
         'standard': '5px 5px rgba(0, 0, 0, 1)',
         'standard-hover': '7px 7px rgba(0, 0, 0, 1)',
-      },
-      fontFamily: {
-        sans: ['DM Sans', ...defaultTheme.fontFamily.sans],
-        russo: ['Russo One'],
       }
     }
   },

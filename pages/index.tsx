@@ -57,6 +57,7 @@ const Home: NextPage = () => {
           <Skills skill='Tailwind CSS' link='http://google.es'/>
           <Skills skill='SASS' link='http://google.es'/>
           <Skills skill='PostCSS' link='http://google.es'/>
+          <Skills skill='Twig' link='http://google.es'/>
         </div>
       </main>
 

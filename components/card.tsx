@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
 function Card({imgSrc, title, description, color}: { imgSrc: string; title: string; description: string; color: string }) {
-  const defaultClass = 'flex flex-col basis-1/3 p-6 border-2 border-black cursor-pointer shadow-standard hover:shadow-standard-hover transition-shadow';
-  const titleClass = 'font-bold uppercase font-russo text-2xl'
+  const defaultClass = 'flex flex-col basis-1/3 p-6 cursor-pointer rounded-lg drop-shadow-md hover:drop-shadow-lg';
+  const titleClass = 'font-bold text-2xl'
   const descriptionClass = 'text-lg'
 
   return (
